@@ -47,6 +47,9 @@ alias ll='ls -alrt --color=auto'
 alias ..='cd ..'
 
 alias cdp='cd /home/wassere/workspace/rediplus-rt/trunk/reditech/possrv; ls -alrt'
+alias startpos='/var/redi/runtime/possrv/avga-Primary/scripts/start_possrv.ksh'
+alias stoppos='/var/redi/runtime/possrv/avga-Primary/scripts/stop_possrv.ksh'
+alias bouncepos='stoppos && startpos'
 alias makej='make -j$((1 + `grep -c processor /proc/cpuinfo`)) || make -j1'
 
 alias svnst='svn st | grep -v ?'
