@@ -43,7 +43,7 @@ alias folders="find . -maxdepth 1 -type d -print | xargs du -sk | sort -rn"
 alias h='history'
 alias j='jobs -l'
 alias c='clear'
-alias ll='ls -alrt --color=auto'
+alias ll='ls -alrt --color=auto --group-directories-first'
 alias ..='cd ..'
 
 alias cdp='cd /home/wassere/workspace/rediplus-rt/trunk/reditech/possrv; ls -alrt'
