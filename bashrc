@@ -14,7 +14,7 @@ alias tlisten="/home/wassere/workspace/rediplus-redibus/tlisten/build/binaries/t
 alias tsend="/home/wassere/workspace/rediplus-redibus/tsend/build/binaries/tsendExecutable/tsend"
 
 ##### GRADLE #####
-export PATH=$PATH:/home/wassere/gradle-2.0/bin
+export PATH=$PATH:/usr/local/gradle-2.0/bin
 export GRADLE_REPOSITORY=~/.gradleRepositoryLocal
 export ARTIFACTORY=http://artifactory.rdti.com/artifactory/repo
 export ARTIFACTORY_DEPLOY_USER="admin"
